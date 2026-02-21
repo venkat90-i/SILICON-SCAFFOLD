@@ -24,7 +24,7 @@ This version replaces experimental features with robust, standard IDE behaviors 
 * **Previous Constraint:** If a user changed their Superkey bindings in the Settings menu (e.g., changing the Editor focus from `c` to `e`), the text labels on the window panes still displayed the old hardcoded defaults.
 * **v9 Improvement:** A new `update_ui_labels()` engine has been added. Whenever you save changes in the Settings menu, the titles of the four main panes (Explorer, Code, Schematic, Terminal) instantly update to reflect your custom keyboard mappings.
 * ---
-* ## 📥 Setup and Installation
+* ##  Setup and Installation
 
 ### For Linux (Native) & WSL
 Ensure you have the following packages installed based on your distribution
