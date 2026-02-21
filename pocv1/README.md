@@ -1,10 +1,10 @@
-# POC v1
+# silicon scaffold workbench (POC v1)
 
 **POC v1** is a lightweight, Python-based Integrated Development Environment (IDE) designed to streamline Verilog HDL development specifically within **Linux environment**. It provides a graphical interface to bridge the gap between simple text editing and powerful open-source command-line EDA tools.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **Project File Explorer**: Automatically scans your working directory for `.v` files for quick access.
 * **Integrated Code Editor**: A clean, focused workspace for writing and editing Verilog modules.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 To run this IDE, ensure your Linux environment has the following installed:
 
@@ -32,7 +32,7 @@ To run this IDE, ensure your Linux environment has the following installed:
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### 1. Launching
 Navigate to your project directory in the Linux terminal and run:
