@@ -1,6 +1,6 @@
 # POC v1
 
-**POC v1** is a lightweight, Python-based Integrated Development Environment (IDE) designed to streamline Verilog HDL development specifically within **Windows Subsystem for Linux (WSL)**. It provides a graphical interface to bridge the gap between simple text editing and powerful open-source command-line EDA tools.
+**POC v1** is a lightweight, Python-based Integrated Development Environment (IDE) designed to streamline Verilog HDL development specifically within **Linux environment**. It provides a graphical interface to bridge the gap between simple text editing and powerful open-source command-line EDA tools.
 
 ---
 
