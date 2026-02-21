@@ -34,6 +34,58 @@ This release fundamentally changes the architecture of the IDE, splitting the wo
   7. **GDS:** Exports the final physical `design.gds` file.
 * **Live TCL Console:** A dedicated interactive console allows power-users to type raw TCL commands directly into the active OpenROAD backend process.
 
-### 4. The "Silicon Peeker" Visualizer
-* **Physical Visualization:** To complement the logic schematic in the Frontend, the Backend features the `SiliconPeeker` (a modified `QGraphicsView`).
-* Currently, when you click "Floorplan" or "Place", it generates an auto-scaling, mock visual representation (a density heatmap) of your silicon die. This lays the graphical foundation for rendering actual routed metal layers in future updates.
+<div class="silis-table-container">
+    <table class="silis-tools-table">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Tool / Library</th>
+                <th>Primary Purpose in Silis IDE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Framework & GUI</strong></td>
+                <td><span class="highlight">PyQt6</span></td>
+                <td>Core interface, rendering the Silicon Peeker, and managing background processes.</td>
+            </tr>
+            <tr>
+                <td><strong>Logic Simulation</strong></td>
+                <td><span class="highlight">Icarus Verilog & VVP</span></td>
+                <td>Compiling and running standard Verilog and SystemVerilog code.</td>
+            </tr>
+            <tr>
+                <td><strong>Waveform Viewer</strong></td>
+                <td><span class="highlight">GTKWave</span></td>
+                <td>Visualizing the <code>.vcd</code> waveform output from the simulation phase.</td>
+            </tr>
+            <tr>
+                <td><strong>Logic Synthesis</strong></td>
+                <td><span class="highlight">Yosys</span></td>
+                <td>Mapping behavioral RTL code into structural gate-level netlists.</td>
+            </tr>
+            <tr>
+                <td><strong>Timing Analysis</strong></td>
+                <td><span class="highlight">OpenSTA</span></td>
+                <td>Extracting hardware timing constraints, power, and area reports.</td>
+            </tr>
+            <tr>
+                <td><strong>Schematic Engine</strong></td>
+                <td><span class="highlight">NetlistSVG & Graphviz</span></td>
+                <td>Rendering high-resolution, vector-based hardware logic diagrams.</td>
+            </tr>
+            <tr>
+                <td><strong>Physical Design</strong></td>
+                <td><span class="highlight">OpenROAD</span></td>
+                <td>Driving the entire backend Place and Route (PnR) flow to generate a physical chip layout.</td>
+            </tr>
+            <tr>
+                <td><strong>Data Parsing</strong></td>
+                <td><span class="highlight">JSON & XML</span></td>
+                <td>Managing the PDK configuration cache and surgically patching SVG visual styles.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
