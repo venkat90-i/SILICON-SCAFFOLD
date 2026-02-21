@@ -62,7 +62,7 @@ Simulation tasks are offloaded to background threads with open standard input pi
 ### For Linux (Native) & WSL
 Ensure you have the following packages installed based on your distribution. **Note: v3.1 requires new Pillow (PIL) dependencies for the zoomable schematic viewer.**
 
-**Fedora / RHEL / CentOS:**
+
 ```bash
 sudo dnf update
 # Install Python, UI, and Image components
