@@ -1,6 +1,6 @@
-# Silis IDE (POC PnR v10)
+# Silicon scaffold IDE (POC PnR v3)
 
-**Silis IDE POC PnR v10** (internally designated as the **"PEAK!"** build and officially titled **"Silis QT v5.3 (Stable)"**) represents the final, triumphant culmination of this entire development journey. 
+**Silicon scaffold IDE POC PnR v10** (internally designated as the **"PEAK!"** build and officially titled **"Silis QT v5.3 (Stable)"**) represents the final, triumphant culmination of this entire development journey. 
 
 After dozens of iterations, framework rewrites, and experimental features, the developer has officially marked this version as the peak of the Proof-of-Concept phase.
 
