@@ -1,6 +1,6 @@
-# Silicon scaffold Workbench (POC v3.1)
+# Silicon scaffold Workbench (POC v3)
 
-**Silicon scaffold Workbench v3.1** is an advanced, multi-threaded Integrated Development Environment (IDE) designed to streamline the VLSI design and simulation workflow within native **Linux** or **Windows Subsystem for Linux (WSL)**. Version 3.1 introduces true multi-file compilation, interactive terminal inputs, and a custom image rendering engine.
+**Silicon scaffold Workbench v3** is an advanced, multi-threaded Integrated Development Environment (IDE) designed to streamline the VLSI design and simulation workflow within native **Linux** or **Windows Subsystem for Linux (WSL)**. Version 3.1 introduces true multi-file compilation, interactive terminal inputs, and a custom image rendering engine.
 
 ---
 
