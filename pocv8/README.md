@@ -24,7 +24,7 @@ The File Explorer (`Treeview`) has been upgraded to support full keyboard traver
 * **The Problem:** Linux X-Servers and Tkinter often misinterpret Numpad arrow keys (e.g., `<KP_Up>`) depending on the NumLock state, causing navigation to fail.
 * **v8 Improvement:** A new `bridge_numpad` helper function explicitly binds all Numpad navigational keys (`KP_Up`, `KP_Down`, `KP_Home`, etc.) to generate their standard Arrow Key equivalents. This ensures seamless cursor movement in the Code Editor and File Explorer regardless of your keyboard hardware.
 * ---
-* ## 📥 Setup and Installation
+* ##  Setup and Installation
 
 ### For Linux (Native) & WSL
 Ensure you have the following packages installed based on your distribution.
