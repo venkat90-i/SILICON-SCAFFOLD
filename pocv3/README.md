@@ -1,15 +1,6 @@
-# silicon scaffold Workbench (POC v3.1)
+# Silicon scaffold Workbench (POC v3.1)
 
 **Silicon scaffold Workbench v3.1** is an advanced, multi-threaded Integrated Development Environment (IDE) designed to streamline the VLSI design and simulation workflow within native **Linux** or **Windows Subsystem for Linux (WSL)**. Version 3.1 introduces true multi-file compilation, interactive terminal inputs, and a custom image rendering engine.
-
----
-
-##  CRITICAL KNOWN ISSUE: SCHEMATIC VIEWER IS BROKEN
-
-**Be warned: The Schematic Viewer in v3.1 is currently unstable.** While the new zoom/pan GUI engine is fully implemented, the underlying generation pipeline from Yosys to Graphviz is failing. 
-* You may experience errors where the `.dot` file is not generated or the `.png` conversion fails entirely. 
-* Yosys may also fail to automatically resolve the top module using the `hierarchy -auto-top` command. 
-* **Do not rely on the "Schematic (Yosys)" button in this build until a hotfix is deployed.**
 
 ---
 
@@ -21,6 +12,14 @@
 * **X-Server Cursor Fix**: Forces standard cursor visibility to prevent the "invisible mouse" bug common in WSLg and X-Server environments.
 
 ---
+##  CRITICAL KNOWN ISSUE: SCHEMATIC VIEWER IS BROKEN
+
+**Be warned: The Schematic Viewer in v3.1 is currently unstable.** While the new zoom/pan GUI engine is fully implemented, the underlying generation pipeline from Yosys to Graphviz is failing. 
+* You may experience errors where the `.dot` file is not generated or the `.png` conversion fails entirely. 
+* Yosys may also fail to automatically resolve the top module using the `hierarchy -auto-top` command. 
+* **Do not rely on the "Schematic (Yosys)" button in this build until a hotfix is deployed.**
+---
+
 
 ## Technical Specifications
 
