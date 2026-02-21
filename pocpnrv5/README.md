@@ -1,16 +1,16 @@
-# Silicon scaffold IDE (POC PnR v18)
+# Silicon scaffold IDE (POC PnR v5)
 
-**Silicon scaffold IDE POC PnR v18** (officially branded in the code as **"Silis — Silicon Scaffold v2.1"**) is a massive architectural milestone. Moving away from simply wrapping external terminal tools, this release builds complex, native visualizers directly into the PyQt6 interface, creating a truly unified EDA suite.
+**Silicon scaffold IDE POC PnR v5** (officially branded in the code as **"Silis — Silicon Scaffold v2.1"**) is a massive architectural milestone. Moving away from simply wrapping external terminal tools, this release builds complex, native visualizers directly into the PyQt6 interface, creating a truly unified EDA suite.
 
 ---
 
-## What's New in POC PnR v18 (Improvements)
+## What's New in POC PnR v5 (Improvements)
 
 This version entirely overhauls the frontend user experience, introducing native waveform viewing, hardware-accelerated layouts, and professional reporting:
 
 ### 1. The Native "SignalPeeker" Waveform Engine
 * **Previous Constraint:** Users had to rely completely on external tools like GTKWave to view their `.vcd` simulation results.
-* **PnR v18 Improvement:** The IDE now features its own incredibly robust, native `VCDParser` and `WaveformCanvas`. 
+* **PnR v5 Improvement:** The IDE now features its own incredibly robust, native `VCDParser` and `WaveformCanvas`. 
 * **Features:** It cleanly renders single-bit signals (green/red lines) and multi-bit buses (hexagonal shapes with hex values). It includes keyboard navigation for zooming, panning, and instant edge-jumping (using the `A` and `D` keys to snap to the next signal transition).
 
 ### 2. Professional Synthesis Dashboard & Report Engine
