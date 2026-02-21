@@ -35,6 +35,6 @@ To run this IDE, ensure your Linux environment has the following installed:
 ## 🚀 How to Use
 
 ### 1. Launching
-Navigate to your project directory in the WSL terminal and run:
+Navigate to your project directory in the Linux terminal and run:
 ```bash
 python3 pocv1.py
