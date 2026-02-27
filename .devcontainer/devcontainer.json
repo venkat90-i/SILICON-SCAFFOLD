@@ -1,0 +1,16 @@
+{
+  "name": "Silis OpenROAD Workspace",
+  "image": "openroad/orfs:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mcusak.vscode-rtl",
+        "ms-python.python"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
