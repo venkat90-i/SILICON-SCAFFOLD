@@ -1,20 +1,12 @@
 {
-    "name": "Silis OpenROAD Workspace",
-    "image": "openroad/orfs:latest",
-    "features": {
-        "ghcr.io/devcontainers/features/desktop-lite:1": {}
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "mcusak.vscode-rtl",
-                "ms-python.python",
-                "tcl-tk.tcl"
-            ]
-        }
-    },
-    "remoteUser": "root",
-    "containerEnv": {
-        "PATH": "/OpenROAD-flow-scripts/tools/install/OpenROAD/bin:${PATH}"
+  "name": "Silis OpenROAD Workspace",
+  "image": "openroad/orfs:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mcusak.vscode-rtl"
+      ]
     }
+  },
+  "remoteUser": "root"
 }
